@@ -6,21 +6,19 @@ using System.Web.Mvc;
 
 namespace MVCMedicoSoft.Controllers
 {
-    public class HomeController : Controller
+    public class LoginController : Controller
     {
-        public ActionResult Index()
+        //
+        // GET: /Login/
+        [HttpGet]
+        public ActionResult Forms()
         {
             return View();
         }
-
-        public ActionResult User()
+        [HttpPost]
+        public ActionResult Forms(string txtLogin, string txtPassword)
         {
             return View();
         }
-
-        public ActionResult Agenda()
-        {
-            return View();
-        }
-    }
+	}
 }

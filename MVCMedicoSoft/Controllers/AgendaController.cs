@@ -6,21 +6,13 @@ using System.Web.Mvc;
 
 namespace MVCMedicoSoft.Controllers
 {
-    public class HomeController : Controller
+    public class AgendaController : Controller
     {
+        //
+        // GET: /Agenda/
         public ActionResult Index()
         {
             return View();
         }
-
-        public ActionResult User()
-        {
-            return View();
-        }
-
-        public ActionResult Agenda()
-        {
-            return View();
-        }
-    }
+	}
 }

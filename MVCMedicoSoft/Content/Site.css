@@ -16,6 +16,47 @@ textarea {
     max-width: 280px;
 }
 
+/* CSS accueil */
+
+#propos
+{
+  width:1200px;
+}
+
+h2
+{
+ 
+}
+
+button
+{
+   
+}
+
+.colleft, .colright
+{  
+    
+    display:inline-block;
+    width:600px;
+}
+
+.colleft
+{
+    padding-left:100px;
+    margin-left:20px;
+    width:300px;
+}
+
+.colright
+{
+    margin-left:30px;
+}
+
+/*#outils, #propos
+{
+    
+}*/
+
 /* styles for validation helpers */
 .field-validation-error {
     color: #b94a48;
@@ -39,4 +80,23 @@ input[type="checkbox"].input-validation-error {
 
 .validation-summary-valid {
     display: none;
+}
+
+h2{
+    margin: 0;     
+    color: #4578b9;
+    padding-top: 90px;
+    font-size: 40px;
+    font-family: "trebuchet ms", sans-serif;    
+}
+.item{
+    background: #333;    
+    text-align: center;
+    height: 300px !important;
+}
+.carousel{
+    margin-top: 20px;
+}
+.bs-example{
+	margin: 20px;
 }
