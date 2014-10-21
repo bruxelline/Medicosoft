@@ -18,14 +18,11 @@ textarea {
 
 /* CSS accueil */
 
-#propos
-{
-  width:1200px;
-}
 
 h2
 {
- 
+ text-align:center;
+ padding-bottom:10px;
 }
 
 button
@@ -33,29 +30,34 @@ button
    
 }
 
-.colleft, .colright
-{  
-    
+.user
+{
+   
+}
+
+.agenda, .user, .colleft, .colright
+{
     display:inline-block;
-    width:600px;
+    margin-left:240px;
 }
 
 .colleft
 {
-    padding-left:100px;
-    margin-left:20px;
+    margin-left:250px;
     width:300px;
 }
 
 .colright
 {
-    margin-left:30px;
+    margin-left:250px;
+    width:200px;
 }
 
-/*#outils, #propos
+#outils, #propos
 {
-    
-}*/
+     border-style: dotted;
+    border-width: 1px;
+}
 
 /* styles for validation helpers */
 .field-validation-error {
@@ -99,4 +101,12 @@ h2{
 }
 .bs-example{
 	margin: 20px;
+}
+
+.btnlogin
+{
+  margin-top:10px;
+  position: absolute;
+  right:0px;
+  margin-right:10px;
 }

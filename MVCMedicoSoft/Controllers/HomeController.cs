@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
-
 namespace MVCMedicoSoft.Controllers
 {
     public class HomeController : Controller
@@ -12,14 +11,14 @@ namespace MVCMedicoSoft.Controllers
         {
             return View();
         }
-
-        public ActionResult User()
+        public ActionResult About()
         {
+            ViewBag.Message = "Your application description page.";
             return View();
         }
-
-        public ActionResult Agenda()
+        public ActionResult Contact()
         {
+            ViewBag.Message = "Your contact page.";
             return View();
         }
     }
