@@ -32,5 +32,7 @@ namespace MVCMedicoSoft.Models
             get { return (bool)HttpContext.Current.Session["isMedecin"]; }
             set { HttpContext.Current.Session["isMedecin"] = value; }
         }
+
+      
     }
 }
